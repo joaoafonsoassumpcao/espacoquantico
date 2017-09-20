@@ -1,0 +1,16 @@
+{
+  "name": "site-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "expresstut.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "rxpress": "^0.3.0"
+  }
+}
