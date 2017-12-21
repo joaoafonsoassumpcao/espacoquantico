@@ -31,7 +31,7 @@
 }
 
 .fs-video-hero, .fw-video-hero {
-    background: url(/bgsite.jpg);
+    background: url(/bgsite.png);
     background-size: cover;
 }
 
@@ -103,6 +103,28 @@
     transition: color 0.5s;
 }
 
+.mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #00AF00;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 968px;
+    max-height: 1900px;
+}
+
+
+
 </style>
 <div class="fs-video-hero">
 
@@ -119,13 +141,13 @@
                 <img src="/img/introsite.png" style="width: 500px; height:auto">
 
                 <h1 class="hero-lead wow fadeInLeft" data-wow-duration="1.5s" style="font-size: 20px">LAZER PARA SUA ALMA</h1>
-                <a href="#services" class="btn btn-light wow fadeIn" style="color:#21519E !important; font-size:20px" data-wow-duration="2s" data-wow-delay="1s">Conheça!</a>
+                <a href="#about" class="btn btn-light wow fadeIn" style="color:#21519E !important; font-size:20px" data-wow-duration="2s" data-wow-delay="1s">Conheça!</a>
 
             </div>
         </div>
 
         <!-- Scroller -->
-        <a href="#services" class="scroller">
+        <a href="#about" class="scroller">
             <span class="scroller-text">Rolar para baixo</span>
             <span class="linea-basic-magic-mouse"></span>
         </a>
@@ -133,7 +155,31 @@
     </div><!-- / .bg-overlay -->
 </div><!-- / .fs-video-hero -->
 
+<div style="background-color:#F4FFF4; padding-top:40px">
+<section id="about" class="container" >
+    <div class="row section">
+      
+      
 
+      <div class="">
+        <blockquote style="text-align: justify;font-size:20px">Alguma vez você já entrou em um lugar e sentiu uma <b style="color:#21519E">inexplicável energia</b>? Algo que 
+                ultrapassou qualquer explicação em palavras, fazendo com que você se sentisse muito em paz, 
+                leve e tranquilo, conectado com você mesmo, com o universo e com a natureza de forma 
+                especial? Essa é a experiência de quem vem no <b style="color:#00AF00">Espaço Quântico Vegeton</b>.  
+        </blockquote>
+      </div>
+      <h3 style="color:#21519E;"><B>Benefícios</B>:</h2>
+      <ul style="font-size:18px">
+          <li>Um local para você se reconectar consigo mesmo e com a natureza; </li>
+          <li>Um lugar para você se energizar e recarregar as suas baterias; </li>
+          <li>Um lugar para você se desligar dos problemas do cotidiano, da Matrix, e se descansar; </li>
+          <li>Um Lugar para você acessar a Paz, e a Harmonia interior;</li>
+      </ul>
+      
+    </div><!-- / .row -->
+    
+  </section>
+</div>
  <!-- ========== Team ========== -->
 
  <div class="gray-bg" style="background-color:#F4FFF4" id="services">
