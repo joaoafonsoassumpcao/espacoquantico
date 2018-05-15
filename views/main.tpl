@@ -153,7 +153,7 @@
 
 
 <!-- Social Links -->
-<div class="dark-bg" style="background-image: url(../public/rp.jpg); background-size:cover; height: 350px">
+<div class="dark-bg" style="background-image: url(../public/rp-compressor.jpg); background-size:cover; height: 350px">
     <div class="container footer-social-links">
         <div class="row">
 
