@@ -22,11 +22,11 @@ type SiteMainController struct {
 func (this *SiteMainController) Home() {
 
 	if Gomode != "LOCAL" {
-		if this.Ctx.Request.TLS == nil {
-			url := "https://" + this.Ctx.Input.Domain()
-			this.Ctx.Redirect(302, url)
-		}
-	}
+	if this.Ctx.Request.TLS == nil {
+	   url := "https://" + this.Ctx.Input.Domain()
+	   this.Ctx.Redirect(302, url)
+	 	}
+	 }
 
 	this.loadViewSite("views/home", "init_home", "dummy")
 }

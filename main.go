@@ -40,7 +40,7 @@ func main() {
 		sport = "80"
 	}
 
-	gomode := os.Getenv("GOMODE")
+	 gomode := os.Getenv("GOMODE")
 
 	//controllers.Gomode = gomode
 
@@ -56,7 +56,7 @@ func main() {
 	//beego.App.Server.WriteTimeout = time.Second * 10
 
 	// HABILITAR HTTPS
-	if gomode != "LOCAL" {
+	 if gomode != "LOCAL" {
 		beego.BConfig.Listen.HTTPSPort = 443
 		beego.BConfig.Listen.EnableHTTPS = true
 		beego.BConfig.Listen.HTTPSCertFile = "certs/fullchain.pem"

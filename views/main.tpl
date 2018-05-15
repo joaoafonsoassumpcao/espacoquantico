@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Espaço Quântico Vegeton</title>
-    <meta name="description" content="">
+    <meta name="description" content="Um lugar perfeito para ter paz e harmonia em Caldas Novas">
+    <meta name="keywords" content="hotel,caldas novas,turismo,viagem,pousada,ferias">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon -->
@@ -168,7 +169,7 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <small style="color:white">&copy; 2017 Todos direitos reservados. Designed by João Afonso Assumpção   <a class="no-style-link" href="http://www.rolleoficial.com.br/" target="_blank">(ROLLE)</a></small>
+                    <small style="color:white">&copy; 2017 Todos direitos reservados. Designed by João Afonso Assumpção</small>
                 </div>
 
                 <div class="col-md-6">
@@ -218,6 +219,15 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOcd7o0W0r846FC_GoHSK56xeAvP8fV4s"></script>
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119347272-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119347272-1');
+</script>
 
 
 

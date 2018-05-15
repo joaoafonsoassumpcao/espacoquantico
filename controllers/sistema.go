@@ -16,12 +16,12 @@ func (this *MainController) Home() {
 
 	// SE VIER POR HTTP, vou redirecionar para HTTPS
 	if Gomode != "LOCAL" {
-		if this.Ctx.Request.TLS == nil {
-			url := "https://" + this.Ctx.Input.Domain()
-			this.Ctx.Redirect(302, url)
-			//this.Redirect("https://avalia.info/login", 302)
-		}
-	}
+	if this.Ctx.Request.TLS == nil {
+	url := "https://" + this.Ctx.Input.Domain()
+	this.Ctx.Redirect(302, url)
+	this.Redirect("https://avalia.info/login", 302)
+	 	}
+	 }
 
 	//mlog.Info("%+v", sess)
 	/*

@@ -2,7 +2,7 @@
 
 <style>
     .pt-plax-lg-light {
-        background: url(../public/bgcontato.jpg);
+        background: url(../public/bgcontato1.jpg);
         background-size: cover;
 
     }
@@ -75,7 +75,7 @@
 
                         <li class="contact-group"><a href="https://api.whatsapp.com/send?l=pt&phone=556281129670">
                             <span class="adr-heading" style="color:#21519E; font-size:23px"><b>Whatsapp</b> <i class="fa fa-whatsapp"></i></span>
-                            <span class="adr-info" style="color:#21519E"><b>Faça sua reserva! <br>(62) 98112-9670</b></span></a>
+                            <span class="adr-info" style="color:#21519E"><b>Faça sua reserva! <br>(64) 98112-9670</b></span></a>
                         </li>
                         <li class="contact-group">
                             <span class="adr-heading" style="color:#21519E; font-size:23px"><b>Email</b> <i class="fa fa-envelope-o"></i></span>
