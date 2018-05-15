@@ -100,8 +100,5 @@ func main() {
 	//uf := models.UFs[5]
 	//fmt.Printf("%+v", uf)
 
-
-	//beego.InsertFilter("/notificacaoPG", beego.BeforeRouter,auth.Basic("pagseguro","!$asd()34843qhiasHIuh"))
-
 	beego.Run()
 }
