@@ -88,8 +88,8 @@ func main() {
 	beego.SetStaticPath("/public", "public")
 	//beego.SetStaticPath("/static", "static")
 
-	//beego.SetStaticPath("/sitemap.xml", "public/sitemap.xml")
-	//beego.SetStaticPath("/robots.txt", "public/robots.txt")
+	beego.SetStaticPath("/sitemap.xml", "public/sitemap.xml")
+	beego.SetStaticPath("/robots.txt", "public/robots.txt")
 
 
 
