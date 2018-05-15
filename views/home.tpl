@@ -32,7 +32,7 @@
     }
 
     .fs-video-hero, .fw-video-hero {
-        background: url(../public/bgsite.jpg);
+        background: url(../public/bgsite-compressor.jpg);
         background-size: cover;
     }
 
@@ -169,7 +169,7 @@
                     especial? Essa é a experiência de quem vem no <b style="color:#00AF00">Espaço Quântico Vegeton</b>.
                 </blockquote>
             </div>
-            <h3 style="color:#21519E;"><B>Benefícios</B>:</h2>
+            <h3 style="color:#21519E;"><B>Benefícios</B>:</h3>
                 <ul style="font-size:18px">
                     <li>Um local para você se reconectar consigo mesmo e com a natureza; </li>
                     <li>Um lugar para você se energizar e recarregar as suas baterias; </li>
@@ -237,7 +237,7 @@
 </div><!-- / .gray-bg -->
 
 <!-- ========== Portfolio Boxed - 4 Columns ========== -->
-<div style="background-image: url(../public/img/bgprincipios1-01.jpg); background-size:cover; background-attachment:fixed">
+<div style="background-image: url(../public/img/bgprincipios1-01-compressor.jpg); background-size:cover; background-attachment:fixed">
     <section class="container portfolio-layout portfolio-columns-boxed" style="padding-top:20px;margin-top:20px; ">
         <div class="row">
             <header class="sec-heading" style="margin-top:30px">
@@ -254,7 +254,7 @@
                 <!-- Item 1 -->
                 <div class="col-md-3 portfolio-item print">
                     <div class="p-wrapper hover-default">
-                        <img src="../public/icons/icon1-02.jpg" alt="Project Example">
+                        <img src="../public/icons/icon1-02-compressor.jpg" alt="Project Example">
                         <div class="p-hover">
                             <div class="p-content">
                                 <h6 class="subheading" style="color:#21519E !important; letter-spacing:0.5px; font-size:15px; line-height:120%; font-weight:600; text-align:center">O espaço segue princípios da geometria sagrada, como harmonia e simetria das formas, e em especial o uso da geometria hexagonal.</h6>

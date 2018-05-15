@@ -58,12 +58,12 @@
 
     @font-face {
         font-family: CenturyGothic;
-        src: url(assets/fonts/gothic.woff);
+        src: url(../public/assets/fonts/gothic.woff);
     }
 
     @font-face {
         font-family: Comfortaa;
-        src: url(assets/fonts/comfortaa.woff);
+        src: url(../public/assets/fonts/comfortaa.woff);
     }
 
     .copyright{
