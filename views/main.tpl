@@ -131,6 +131,9 @@
                 </li> -->
 
 
+                <li class="dropdown mega-fw">
+                    <a href="/blog" class="dropdown-toggle">Blog<span class="caret"></span></a>
+                </li>
 
                 <li class="dropdown mega-fw">
                     <a href="/contato" class="dropdown-toggle">CONTATO<span class="caret"></span></a>

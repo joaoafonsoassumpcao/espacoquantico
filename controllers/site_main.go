@@ -21,18 +21,22 @@ type SiteMainController struct {
 
 func (this *SiteMainController) Home() {
 
-	if Gomode != "LOCAL" {
-	if this.Ctx.Request.TLS == nil {
+	 if Gomode != "LOCAL" {
+	 if this.Ctx.Request.TLS == nil {
 	   url := "https://" + this.Ctx.Input.Domain()
 	   this.Ctx.Redirect(302, url)
-	 	}
-	 }
+	  	}
+	  }
 
 	this.loadViewSite("views/home", "init_home", "dummy")
 }
 
 func (this *SiteMainController) Blog() {
 	this.loadViewSite("views/blog", "init_home", "dummy")
+}
+
+func (this *SiteMainController) Postmodelo() {
+	this.loadViewSite("views/post-modelo", "init_home", "dummy")
 }
 
 func (this *SiteMainController) BlogNoticias() {

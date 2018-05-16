@@ -20,8 +20,8 @@ func (this *MainController) Home() {
 	url := "https://" + this.Ctx.Input.Domain()
 	this.Ctx.Redirect(302, url)
 	this.Redirect("https://avalia.info/login", 302)
-	 	}
-	 }
+	  	}
+	  }
 
 	//mlog.Info("%+v", sess)
 	/*

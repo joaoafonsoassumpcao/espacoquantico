@@ -2,7 +2,7 @@
 
 <style>
     .pt-plax-lg-light {
-        background: url(../public/bgcontato1.jpg);
+        background: url(/public/bgcontato1.jpg);
         background-size: cover;
 
     }

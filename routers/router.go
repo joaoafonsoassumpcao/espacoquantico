@@ -11,6 +11,7 @@ func init() {
 	beego.Router("/", &controllers.SiteMainController{}, "get:Home")
 	beego.Router("/home", &controllers.SiteMainController{}, "get:Home")
 	beego.Router("/blog", &controllers.SiteMainController{}, "get:Blog")
+	beego.Router("/post-modelo", &controllers.SiteMainController{}, "get:Postmodelo")
 	beego.Router("/blog-noticias", &controllers.SiteMainController{}, "get:BlogNoticias")
 	beego.Router("/blog-artigos", &controllers.SiteMainController{}, "get:BlogArtigos")
 	beego.Router("/quem-somos", &controllers.SiteMainController{}, "get:QuemSomos")
@@ -24,6 +25,7 @@ func init() {
 	beego.Router("/imobiliarias", &controllers.SiteMainController{}, "get:Imobiliarias")
 	beego.Router("/depoimento", &controllers.SiteMainController{}, "get:Depoimento")
 	beego.Router("/legislacao", &controllers.SiteMainController{}, "get:Legislacao")
+	
 
 
 
